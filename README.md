@@ -1,5 +1,7 @@
 # Dancing-Robots
 
+![image](https://user-images.githubusercontent.com/58706533/116562096-e2670b80-a8d0-11eb-9ed1-cea526e52c13.png)
+
 This project creates a three robot waltzing group, with two leader robots and one follower robot.
 The leader robots both use proportional control to line follow around a large circle while making periodic spins. They are also capable of detecting when music is playing with a machine learning algorithm to start and stop moving, or receiving a manual cue to start and stop. The follower robot uses image processing and proportional control to follow green dots placed on the rear of the leader robots. 
 
