@@ -1,6 +1,6 @@
 # Dancing-Robots
 <p align="center">
-  ![image](https://user-images.githubusercontent.com/58706533/116562096-e2670b80-a8d0-11eb-9ed1-cea526e52c13.png)
+  <img width="460" height="300" src="https://user-images.githubusercontent.com/58706533/116562096-e2670b80-a8d0-11eb-9ed1-cea526e52c13.png">
 </p>
 
 This project creates a three robot waltzing group, with two leader robots and one follower robot.
