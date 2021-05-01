@@ -3,13 +3,11 @@
 
 #File on Raspberry Pi to send on/off values to spike from user input
 
-import time
-import numpy as np
 import serial
 
 #Initialize serial connection
 ser = serial.Serial(
-  port='/dev/ttyAMA1',
+  port='/dev/ttyAMA1', #Update to port with serial to SPIKE
   baudrate = 115200,
   parity=serial.PARITY_NONE,
   stopbits=serial.STOPBITS_ONE,
