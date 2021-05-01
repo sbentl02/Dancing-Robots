@@ -1,1 +1,2 @@
+This folder contains the code necessary to run the two leader robots. Both "Leader_A.py" and "Leader_B.py" provide the same functionality (i.e. line following with periodic spins and stop/start conditions), but with characteristics that give each leader a distinct personality. Both of these files should be run on SPIKE Prime Robots, with two motors controlling wheels, a light sensor in the front center of the robot, and a raspberry pi connected over serial.
 
