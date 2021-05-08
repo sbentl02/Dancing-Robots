@@ -150,7 +150,7 @@ while True:
          
             prev_x = x_val 
     else:
-    # NOTE: THIS LAGS UP THE SPIKE A LOT 
+    # NOTE: adding sounds may add lag!
         ser.write(('hub.sound.beep(391,200,2)\r\n').encode())
         if prev_x < center_x:
             # rotate to the right, so CW
