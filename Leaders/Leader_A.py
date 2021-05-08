@@ -1,3 +1,14 @@
+#ME_35 Leader A Code 2021
+# Allison Moore
+#
+#This code uses line following to allow a LEGO SPIKE "leader" robot to track a line with
+# proportional control and color sensing while making periodic spins
+#
+# Alongside this, the "leader" communicates with a Raspberry Pi 4 to start and stop to the sound of music 
+# When the color sensor detects "Red" for this code, this robot will turn switch with Leader B
+
+
+
 import hub,utime,math
 #Initializes sensors
 light = hub.port.F.device #color sensor in center of car
